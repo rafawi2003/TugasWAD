@@ -1,0 +1,13 @@
+.header {
+    text-align: right;
+    margin-right: 300px;
+    color: black;
+
+}
+.pasfoto img{margin-left: 200px;
+    margin-top: -150px;
+    height: 180px; 
+    width: 250px;
+    border-radius: 50%
+
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+    background-image: url(latihan5.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    color: darkblue;
+}
