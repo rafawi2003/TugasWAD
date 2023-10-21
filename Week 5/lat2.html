@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>AKN Bojonegoro</title>
+</head>
+<body>
+  <h1>BMW M3</h1>
+  <img id="myImage" onclick="changeImage()" src="foto1.jpg" width="100%">
+  <p><b>Click to view another angle of animation</b>.</p>
+  <script>
+    function changeImage() {
+      var img = document.getElementById("myImage");
+      if (img.src.includes("foto1")) {
+        img.src = "foto2.jpg";
+      } else if (img.src.includes("foto2")) {
+        img.src = "foto3.jpg";
+      } else {
+        img.src = "foto1.jpg";
+      }
+    }
+  </script>
+</body>
+</html>
